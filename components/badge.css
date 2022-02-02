@@ -1,0 +1,73 @@
+.badge-container {
+    position: relative;
+    width: fit-content;
+    box-sizing: border-box;
+
+}
+
+.status-badge {
+    height: 1.1rem;
+    width: 1.1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    font-size: 0.8em;
+    color: white;
+    padding: 0.5rem;
+}
+
+
+.online {
+    background-color: var(--green);
+}
+
+.offline {
+    background-color: var(--red);
+}
+
+.dont-disturb {
+    background-color: var(--orange);
+}
+
+
+.badge-container .avatar-m~.status-badge {
+    right: 0.5rem;
+    bottom: 0.6rem;
+}
+
+.icon {
+    font-size: 1.8rem;
+
+}
+
+.badge-number {
+    font-weight: bold;
+    border: none;
+    top: -0.5rem;
+    right: 1.8rem;
+    background-color: var(--primary-voilet)
+}
+
+
+.primary-badge {
+
+    border-radius: 0.2rem;
+    background-color: var(--primary-voilet);
+    padding: 0.1rem 0.5rem;
+    color: white;
+    font-size: 0.8em;
+}
+
+.secondary-badge {
+    border-radius: 0.2rem;
+    border: 1px solid var(--primary-voilet);
+    padding: 0 0.4rem;
+    font-size: 0.8em;
+}
+
+.pill-badge {
+    border-radius: 10px;
+}

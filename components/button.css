@@ -1,0 +1,89 @@
+.btn {
+    padding: 0.5rem 0.6rem;
+    background-color: #ffffff;
+    border-radius: 0.2rem;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: white;
+    background-color: var(--primary-voilet);
+}
+
+.btn-secondary {
+    color: white;
+    background: var(--primary-dark);
+}
+
+.btn-save {
+    color: white;
+    background-color: var(--green);
+}
+
+.btn-delete {
+    color: white;
+    background-color: var(--red);
+}
+
+.btn-info {
+    color: white;
+    background: var(--blue);
+}
+
+.btn-light {
+    color: white;
+    background-color: var(--grey)
+}
+
+.btn-dark {
+    color: white;
+    background-color: var(--secondary-dark);
+}
+
+.btn-link {
+    text-decoration: underline;
+    color: var(--primary-voilet)
+}
+
+.o-btn-primary {
+    border: 1px solid var(--primary-voilet);
+    color: var(--primary-voilet);
+}
+
+.o-btn-secondary {
+    color: var(--primary-dark);
+    border: 1px solid var(--primary-dark);
+}
+
+.o-btn-save {
+    color: var(--green);
+    border: 1px solid var(--green);
+}
+
+.o-btn-delete {
+    color: var(--red);
+    border: 1px solid var(--red);
+}
+
+.o-btn-info {
+    color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+.o-btn-light {
+    color: var(--grey);
+    border: 1px solid var(--grey)
+}
+
+.o-btn-dark {
+    color: var(--secondary-dark);
+    border: 1px solid var(--secondary-dark);
+}
+
+.btn-ic a {
+    color: var(--secondary-dark);
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
