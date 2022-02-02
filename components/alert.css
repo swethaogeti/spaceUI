@@ -1,0 +1,36 @@
+.alert{
+    padding:1rem 2rem;
+    margin:0.5rem 0;
+    width: 100%;
+    border-radius: 0.2rem;
+    position: relative;
+
+  
+}
+
+.alert-secondary{
+    background-color:var(--light-voilet);
+color:var(--primary-voilet)
+}
+.alert-primary{
+    background-color:var(--light-blue);
+color: blue;
+}
+
+.alert-success{
+    background-color:var(--light-green);
+    color: var(--green);
+}
+.alert-warning{
+    background-color: var(--light-orange);
+    color:var(--orange)
+}
+.alert-danger{
+    background-color: var(--light-red);
+    color:var(--red)
+}
+
+.alert-component i{
+    font-size:1.5rem;
+    margin-right: 0.2rem;
+}
