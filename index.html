@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./doc-css/docpage.css">
+    <title>Space ui</title>
+
+</head>
+
+<body>
+    <div class="pagelayout-grid">
+        <nav class="navbar">
+
+        </nav>
+
+        <div class="sidebar">
+            <ul class="sidebar-items">
+                <li class="sidebar-item"> <a href="">Avatar</a></li>
+                <li class="sidebar-item"> <a href="">Alert</a></li>
+                <li class="sidebar-item"> <a href="">Badge</a></li>
+                <li class="sidebar-item"> <a href="">Button</a></li>
+                <li class="sidebar-item"> <a href="">Card</a></li>
+                <li class="sidebar-item"> <a href="">Image</a></li>
+                <li class="sidebar-item"> <a href="">Input</a></li>
+
+            </ul>
+        </div>
+        <div class="main">
+            <section class="avatar-component">
+
+                <h1>
+                    Avatar
+                </h1>
+                <p>Use the Avatar Component as a graphical representation of a person through a profile picture or a string with initials</p>
+
+                <h2>
+                    Example of Image avatar
+                </h2>
+
+                <p>Avatar is available in 5 different sizes. You can use image in Avatar.</p>
+
+                <div class="component-display-container">
+                    <div class="avatar avatar-xl margin-right-1">
+                        <img src="./images/girls.jpg" class="image-responsive image-round " alt="">
+                    </div>
+
+                    <div class="avatar avatar-l margin-right-1">
+                        <img src="./images/girls.jpg" class="image-responsive image-round " alt="">
+                    </div>
+
+                    <div class="avatar avatar-m margin-right-1">
+                        <img src="./images/girls.jpg" class="image-responsive image-round " alt="">
+                    </div>
+                    <div class="avatar avatar-s margin-right-1">
+                        <img src="./images/girls.jpg" class="image-responsive image-round " alt="">
+                    </div>
+                    <div class="avatar avatar-xs margin-right-1">
+                        <img src="./images/girls.jpg" class="image-responsive image-round " alt="">
+                    </div>
+                </div>
+
+               
+
+
+                <h2>Example of text avatar</h2>
+                <p>You can use initial leeters of user in well. You need to include class avatar-text along with avatar
+                    and size class.</p>
+
+                <div class="component-display-container">
+
+                    <div class="avatar avatar-xl  avatar-text margin-right-1" role="img" alt="avatar">
+                        SO
+                    </div>
+
+                    <div class="avatar avatar-l  avatar-text margin-right-1" role="img" alt="avatar">
+                        SO
+                    </div>
+
+                    <div class="avatar avatar-m  avatar-text margin-right-1" role="img" alt="avatar">
+                        SO
+                    </div>
+
+                    <div class="avatar avatar-s  avatar-text margin-right-1" role="img" alt="avatar">
+                        SO
+                    </div>
+                    <div class="avatar avatar-xs  avatar-text margin-right-1" role="img" alt="avatar">
+                        SO
+                    </div>
+                </div>
+
+
+            </section>
+
+
+
+
+
+            <section class="alert-component">
+                <h1>Alert</h1>
+                <p>Alert is used to attract user's attention for important information without interrupting the user's
+                    flow</p>
+
+                <h2>Example</h2>
+                <p>The alert offers four severity levels that set a distinctive icon and color</p>
+
+                <div class="component-display-container flex-box">
+                    <div class="alert alert-secondary">
+                        A simple alert example.
+                    </div>
+
+                    <div class="alert alert-primary"><span class="alert-icon"> <i class="fas fa-info-circle"></i></span>
+                        A primary alert example
+                    </div>
+
+                    <div class="alert alert-success"><span class="alert-icon"> <i
+                                class="fas fa-check-circle"></i></span>
+                        A sucess alert example
+                    </div>
+
+
+                    <div class="alert alert-warning"><span class="alert-icon"> <i
+                                class="fas fa-exclamation-triangle"></i></span>
+                        A warning alert example
+                    </div>
+
+
+                    <div class="alert alert-danger"><span class="alert-icon"> <i class="fa fa-times-circle"></i></span>
+
+                        A danger alert example
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+            <section class="badge-component">
+                <h1>Badge</h1>
+                <p>Badge are being used to display a notification count ot status</p>
+                <h2>Examples of status Badges</h2>
+                <p>staus badge can be used to show online status of user.</p>
+
+                <div class="component-display-container">
+                    <div class="badge-container">
+                        <div class="avatar avatar-m">
+                            <img class="image-responsive image-round" src="./images/girls.jpg" alt="avatar">
+                        </div>
+                        <span class="status-badge online"></span>
+                    </div>
+
+                    <div class="badge-container margin-2">
+                        <div class="avatar avatar-m">
+                            <img class="image-responsive image-round" src="./images/girls.jpg" alt="avatar">
+                        </div>
+                        <span class="status-badge offline"></span>
+                    </div>
+
+                    <div class="badge-container">
+                        <div class="avatar avatar-m">
+                            <img class="image-responsive image-round" src="./images/girls.jpg" alt="avatar">
+                        </div>
+                        <span class="status-badge dont-disturb"></span>
+                    </div>
+                </div>
+
+
+
+                <h2>Example of badge on icon</h2>
+                <p>badge can we used on icon as a notification number badge can be used on icon</p>
+
+                <div class="component-display-container">
+                    <span class="badge-container"> <i class="icon fas fa-bell margin-right-2"></i>
+                        <span class="status-badge badge-number">25</span></span>
+
+
+                    <span class="badge-container"> <i class="icon fas fa-envelope margin-right-2"></i>
+                        <span class="status-badge badge-number">5</span></span>
+
+                    <span class="badge-container"> <i class="icon fas fa-shopping-cart margin-right-2"></i>
+                        <span class="status-badge badge-number">10</span></span>
+
+                </div>
+                <h2> Examples of Text badge</h2>
+                <div class="component-display-container">
+                    <div class="text-badge">
+                        <span class="badge primary-badge margin-right-1">Primary</span>
+                    </div>
+
+                   <div class="text-badge margin-right-1">
+                        <span class="badge secondary-badge">Secondary</span>
+                    </div>
+
+                    <div class="text-badge margin-right-1">
+                        <span class="badge pill-badge primary-badge">New</span>
+                    </div>
+
+
+                    <div class="text-badge margin-right-1">
+                        <span class="badge pill-badge secondary-badge">Sale</span>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="button-component">
+<h1>Button</h1>
+<p>Buttons allow users to take actions, and make choices, with a single tap.</p>
+
+<h2>Simple Button</h2>
+<div class="component-display-container flex-box-default">
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-secondary">Secondary</button>
+    <button class="btn btn-save">Save</button>
+    <button class="btn btn-delete">Delete</button>
+    <button class="btn btn-info">info</button>
+    <button class="btn btn-light">Light</button>
+    <button class="btn btn-dark">Dark</button>
+    <button class="btn btn-link">link</button>
+</div>
+        
+<h2>Outlined Buttons</h2>
+<div class="component-display-container flex-box-default">
+    <button class="btn o-btn-primary">Primary</button>
+    <button class="btn o-btn-secondary">Secondary</button>
+    <button class="btn o-btn-save">Save</button>
+    <button class="btn o-btn-delete">Delete</button>
+    <button class="btn o-btn-info">info</button>
+    <button class="btn o-btn-light">Light</button>
+    <button class="btn o-btn-dark">Dark</button>
+</div>
+
+<h2>Icon Buttons</h2>
+<div class="component-display-container">
+   <button class="btn-ic shopping-cart"><a href="#"><i class="fa fa-shopping-cart "></i></a></button>
+
+
+   <button class="btn-ic shopping-cart"><a href="#"><i class="fa fa-trash "></i></a></button>
+
+   <button class="btn-ic shopping-cart"><a href="#"><i class="fa fa-window-close "></i></a></button>
+
+   <button class="btn-ic shopping-cart"><a href="#"><i class="fa fa-bell "></i></a></button>
+
+   <button class="btn-ic shopping-cart"><a href="#"><i class="fa fa-share-alt"></i></a></button>
+
+   <button class="btn-ic shopping-cart"><a href="#"><i class="fa fa-heart"></i></a></button>
+</div>
+</section>
+        </div>
+    </div>
+
+</body>
+
+</html>
