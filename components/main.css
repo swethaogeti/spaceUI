@@ -1,7 +1,8 @@
+@import url('./root.css');
 @import url('./image.css');
 @import url('./avatar.css');
 @import url('./alert.css');
 @import url('./badge.css');
 @import url('./button.css');
 @import url('./utility.css');
-@import url('./root.css');
+@import url('./card.css');

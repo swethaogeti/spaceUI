@@ -1,0 +1,16 @@
+.card-vertical{
+    width:280px;
+   
+    border-radius:0 5px;
+   
+    margin: 0.5rem;
+    
+}
+
+
+.product-img{
+
+width:100% ;
+object-fit: cover;
+border-radius: 5px;
+}

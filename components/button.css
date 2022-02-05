@@ -87,3 +87,20 @@
     font-size: 1.5rem;
     font-weight: lighter;
 }
+
+
+/* floating button */
+
+.btn-float{
+    width:4rem;
+    height:4rem;
+   border-radius: 50%;
+   background-color: var(--primary-voilet);
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: large;
+   box-shadow: 2px 2px 5px rgba(0, 0,0,0.20);
+  cursor: pointer;
+}
