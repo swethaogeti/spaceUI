@@ -4,14 +4,13 @@
     width: 100%;
     border-radius: 0.2rem;
     position: relative;
-
-  
 }
 
 .alert-secondary{
     background-color:var(--light-voilet);
 color:var(--primary-voilet)
 }
+
 .alert-primary{
     background-color:var(--light-blue);
 color: blue;
@@ -21,10 +20,12 @@ color: blue;
     background-color:var(--light-green);
     color: var(--green);
 }
+
 .alert-warning{
     background-color: var(--light-orange);
     color:var(--orange)
 }
+
 .alert-danger{
     background-color: var(--light-red);
     color:var(--red)

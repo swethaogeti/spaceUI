@@ -2,7 +2,6 @@
     position: relative;
     width: fit-content;
     box-sizing: border-box;
-
 }
 
 .status-badge {
@@ -40,7 +39,6 @@
 
 .icon {
     font-size: 1.8rem;
-
 }
 
 .badge-number {
@@ -50,7 +48,6 @@
     right: 1.8rem;
     background-color: var(--primary-voilet)
 }
-
 
 .primary-badge {
 
