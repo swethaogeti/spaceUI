@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
         crossorigin="anonymous" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
     <link rel="stylesheet" href="./doc-css/docpage.css">
     <title>Space ui</title>
@@ -29,6 +30,9 @@
                 <li class="sidebar-item"> <a href="">Card</a></li>
                 <li class="sidebar-item"> <a href="">Image</a></li>
                 <li class="sidebar-item"> <a href="">Input</a></li>
+                <li class="sidebar-item"> <a href="">Modal</a></li>
+                <li class="sidebar-item"> <a href="">Typography</a></li>
+                <li class="sidebar-item"> <a href="">Toast</a></li>
             </ul>
         </div>
         <div class="main">
@@ -242,6 +246,10 @@
                     <button class="btn-ic shopping-cart"><a href="#"><i class="fa fa-share-alt"></i></a></button>
 
                     <button class="btn-ic shopping-cart"><a href="#"><i class="fa-heart-o"></i></a></button>
+
+                    <button class="btn-ic shopping-cart"><a href="#">
+                            <span class="iconify" data-icon="mdi:cards-heart-outline" data-inline="false"></span>
+                        </a></button>
                 </div>
 
 
@@ -261,29 +269,299 @@
                     actions on a single topic.</p>
                 <h2>Card with Badges</h2>
 
-            </section>
-            <div class="conponent-display-container">
-                <div class="card-vertical flex-box-default">
-                    <img src="https://assets.ajio.com/medias/sys_master/root/h5f/h03/13441467940894/kazo_red_textured_slingbag_with_detachable_strap.jpg"
-                        alt="product-img" class="image-responsive product-img">
 
-                    <div class="description-card">
-                        <h4>swetha</h4>
-                        <p>Tetured slingbag with Detachable strap</p>
-                        <div class="price-des">
-                            <span>Rs.2,094</span>
-                            <span>Rs.3,490</span>
-                            <span>(40% 0ff)</span>
+                <div class="component-display-container flex-box-default">
+                    <div class="card-container flex-box-default">
+                        <div class="badge-container">
+                            <img src="https://assets.ajio.com/medias/sys_master/root/h5f/h03/13441467940894/kazo_red_textured_slingbag_with_detachable_strap.jpg"
+                                alt="product-img" class="image-responsive product-img">
+                            <div class="text-badge">
+                                <span class="badge primary-badge">Trending</span>
+                            </div>
                         </div>
-                        <div class="offer-price">
-                            <span>Offer Price:</span>
-                            <span>Rs.1,885</span>
+
+                        <div class="description-container">
+                            <h4>She Picks</h4>
+                            <p>Textured slingbag with Detachable strap</p>
+                            <div class="price-container flex-box-default">
+                                <span class="discount-price">Rs.2,094</span>
+                                <span><s>Rs.3,490</s></span>
+                                <span class="discount-percent">(40% 0ff)</span>
+
+                            </div>
+
+
                         </div>
+                        <button class="btn btn-primary">Buy Now</button>
+
                     </div>
-                    <button class="btn btn-primary">Add to Cart</button>
+
+
+
+                    <div class="card-container flex-box-default ">
+                        <div class="badge-container">
+                            <img src="https://assets.ajio.com/medias/sys_master/root/hfd/h3b/15129822035998/caprese_yellow_textured_slingbag_with_short_handles.jpg"
+                                alt="product-img" class="image-responsive product-img">
+                            <div class="text-badge">
+                                <span class="badge primary-badge">New</span>
+                            </div>
+                            <span class="iconify symbol" data-icon="mdi:cards-heart-outline" data-inline="false"></span>
+
+
+                        </div>
+
+                        <div class="description-container">
+                            <h4>She Picks</h4>
+                            <p>Textured slingbag with Detachable strap</p>
+                            <div class="price-container flex-box-default">
+                                <span class="discount-price">Rs.2,094</span>
+                                <span><s>Rs.3,490</s></span>
+                                <span class="discount-percent">(40% 0ff)</span>
+
+                            </div>
+
+
+                        </div>
+                        <button class="btn btn-primary">Buy Now</button>
+
+                    </div>
                 </div>
 
-            </div>
+                <h2>Card with dismiss</h2>
+
+                <div class="component-display-container">
+                    <div class="card-container flex-box-default ">
+                        <div class="badge-container">
+                            <img src="https://assets.ajio.com/medias/sys_master/root/20210915/Ey5N/61411cda7cdb8cb824249ba8/love_moschino_brown_204399_full-rim_uv-protected_cat-eye_sunglasses.jpg"
+                                alt="product-img" class="image-responsive product-img">
+                            <div class="text-badge">
+                                <span class="badge primary-badge">New</span>
+                            </div>
+                            <span class="iconify symbol btn-cross" data-icon="maki:cross-11" data-inline="false"></span>
+
+                        </div>
+
+                        <div class="description-container">
+                            <h4>She Picks</h4>
+                            <p>Textured slingbag with Detachable strap</p>
+                            <div class="price-container flex-box-default">
+                                <span class="discount-price">Rs.2,094</span>
+                                <span><s>Rs.3,490</s></span>
+                                <span class="discount-percent">(40% 0ff)</span>
+
+                            </div>
+
+
+                        </div>
+                        <button class="btn btn-primary">Buy Now</button>
+
+                    </div>
+
+
+
+                </div>
+
+                <h2>Cards with text overlay</h2>
+                <div class="component-display-container">
+                    <div class="card-container flex-box-default ">
+                        <div class="badge-container">
+                            <img src="https://assets.ajio.com/medias/sys_master/root/20210915/Ey5N/61411cda7cdb8cb824249ba8/love_moschino_brown_204399_full-rim_uv-protected_cat-eye_sunglasses.jpg"
+                                alt="product-img" class="image-responsive product-img">
+                            <div class="text-badge">
+                                <span class="badge primary-badge">New</span>
+                            </div>
+                            <span class="iconify symbol btn-cross" data-icon="maki:cross-11" data-inline="false"></span>
+
+                        </div>
+
+                        <div class="description-container">
+                            <h4>She Picks</h4>
+                            <p>Textured slingbag with Detachable strap</p>
+                            <div class="price-container flex-box-default">
+                                <span class="discount-price">Rs.2,094</span>
+                                <span><s>Rs.3,490</s></span>
+                                <span class="discount-percent">(40% 0ff)</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary">Buy Now</button>
+                       
+                        <div class="overlay flex-box-default">
+                        </div>
+                        <button class="btn btn-secondary overlay-btn">Out of stock</button>
+                    </div>
+                   
+                </div>
+                <h2>Text only card</h2>
+                <div class="component-display-container">
+                    <div class="card-container flex-box text-card">
+                        <h2>Card Title</h2>
+                        <h4> Card subtitle</h4>
+                        <p>some quick examplw text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                        <button class="btn btn-primary">Click</button>
+                    </div>
+
+                </div>
+                <h2>Horizontal card</h2>
+                <div class="component-display-container">
+                    <div class="horizontal-card-container flex-box">
+                        <div>
+                            <img src="https://assets.ajio.com/medias/sys_master/root/20210806/lMPk/610d65677cdb8cb824eedb5f/carlton_london_brown_cl048rgbr2_analogue_wrist_watch_with_adjustable_hook_buckle.jpg"
+                                alt="product-img" class="image-responsive product-img  img-container">
+
+                        </div>
+
+                        <div class="hz-description-container description-container">
+                            <h2>She Picks</h2>
+                            <p>CL048RGBR2 Analogue Wrist Watch with Adjustable Hook Buckle</p>
+
+                            <div class="price-container">
+                                <span class="discount-price">Rs.2,094</span>
+                                <span><s>Rs.3,490</s></span>
+                                <span class="discount-percent">(40% 0ff)</span>
+
+                            </div>
+                        </div>
+
+
+                        <div class="hz-btn-container flex-box-default">
+                            <div class="txt-btn">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn o-btn-primary">Add to Wishlist</button>
+
+                            </div>
+
+                            <div class="btn-card-icons">
+                                <button class="btn-ic shopping-cart"><a href="#">
+                                        <span class="iconify" data-icon="mdi:cards-heart-outline"
+                                            data-inline="false"></span>
+                                    </a></button>
+
+                                <button class="btn-ic shopping-cart"><a href="#">
+                                        <span class="iconify" data-icon="ic:sharp-share" data-inline="false"></span>
+                                    </a></button>
+
+
+                                <button class="btn-ic shopping-cart"><a href="#">
+                                        <span class="iconify" data-icon="ph:dots-three-outline-vertical-fill"
+                                            data-inline="false"></span>
+                                    </a></button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <h2>Card with shadow</h2>
+                <div class="component-display-container">
+
+                    <div class="card-shadow card-container flex-box-default">
+                        <div class="badge-container">
+                            <img src="https://assets.ajio.com/medias/sys_master/root/20210915/Ey5N/61411cda7cdb8cb824249ba8/love_moschino_brown_204399_full-rim_uv-protected_cat-eye_sunglasses.jpg"
+                                alt="product-img" class="image-responsive product-img">
+                            <div class="text-badge">
+                                <span class="badge primary-badge">New</span>
+                            </div>
+                            <span class="iconify symbol btn-cross" data-icon="maki:cross-11" data-inline="false"></span>
+
+                        </div>
+
+                        <div class="description-container">
+
+                            <h4>She Picks</h4>
+                            <p>Textured slingbag with Detachable strap</p>
+                            <div class="price-container flex-box-default">
+                                <span class="discount-price">Rs.2,094</span>
+                                <span><s>Rs.3,490</s></span>
+                                <span class="discount-percent">(40% 0ff)</span>
+                            </div>
+
+                        </div>
+                        <button class="btn btn-primary">Buy Now</button>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="Image-component">
+                <h1>Image</h1>
+                <h2>Responsive Image</h2>
+                <div class="component-display-container">
+                    <img src="./images/shoes.jpg" class="image-responsive" alt="">
+                </div>
+                <h2>Round image</h2>
+                <div class="component-display-container">
+                    <div class="round">
+                        <img src="./images/girls.jpg" class="image-responsive round image-round" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section class="input-component">
+                <h1>Input</h1>
+                <h2>Label Inputs</h2>
+
+                <div class=" component-display-container">
+                    <div class="input-item">
+                        <label for="input">Username*
+                            <input type="text" class="input input-default">
+                        </label>
+                    </div>
+
+                    <div class="input-item">
+                        <label for="input">password*
+                            <input type="text" class="input input-correct">
+                        </label>
+                    </div>
+
+                    <div class="input-item">
+                        <label for="input">Password*
+                            <input type="text" class="input input-error">
+                        </label>
+                    </div>
+                </div>
+
+                <h2>Radio</h2>
+
+                <div class="component-display-container flex-box-default">
+                    <div class="input-item-1">
+                        <input type="radio" id="radio-1" name="radio">
+                        <label for="radio-1"> checked</label>
+                    </div>
+
+                    <div class="input-item-1">
+                        <input type="radio" id="radio-2" name="radio">
+                        <label for="radio-2"> unchecked</label>
+                    </div>
+
+                    <div class="input-item-1">
+                        <input type="radio" id="radio-3" name="radio" disabled>
+                        <label for="radio-3">disabled</label>
+                    </div>
+                </div>
+
+                <h2>Checkbox</h2>
+
+                <div class="component-display-container flex-box-default">
+                    <div class="input-item-2">
+                        <input type="checkbox" id="checkbox-1" checked>
+                        <label for="checkbox-1"> checked</label>
+                    </div>
+
+                    <div class="input-item-2">
+                        <input type="checkbox" id="checkbox-2">
+                        <label for="checkbox-2"> unchecked</label>
+                    </div>
+
+                    <div class="input-item-2">
+                        <input type="checkbox" id="checkbox-3" disabled>
+                        <label for="checkbox-3">disabled</label>
+                    </div>
+                </div>
+            </section>
+
+
         </div>
 
 </body>

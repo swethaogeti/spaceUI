@@ -18,6 +18,7 @@ body {
     --light-green: #b0f3d4;
     --light-orange: #f8c978;
     --light-red: #fd8181;
+    --primary-grey: rgb(148, 142, 142);
 }
 
 button {

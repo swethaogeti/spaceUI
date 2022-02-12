@@ -1,0 +1,27 @@
+.input-item{
+    display: block;
+   width: 100%;  
+}
+
+.input{
+width: 80%;
+display: block;
+padding:0.5rem ;
+    margin:0.5rem 0;
+   border-radius: 3px; 
+  outline: none;
+  border:1px solid var(--secondary-dark);
+}
+
+.input-default:focus{
+    border:2px solid var(--primary-voilet)
+}
+
+.input-correct:focus{
+    border:2px solid var(--green)
+}
+
+.input-error:focus {
+border:2px solid var(--red);
+}
+
