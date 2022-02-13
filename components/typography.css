@@ -1,6 +1,4 @@
- 
- 
- 
+  
 .typography-container h1{
     font-size: 2rem;
 }
@@ -15,6 +13,5 @@ color: var(--secondary-dark);
 }
 .center-text-box{
     text-align: center;
-   
   width: 100%;
 } 
