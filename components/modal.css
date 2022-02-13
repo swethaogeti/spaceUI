@@ -1,0 +1,31 @@
+.modal-info {
+    width: 30rem;
+    outline: 2px solid var(--grey);
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+.party-img {
+    width: 8rem;
+    height: 8rem;
+
+}
+
+.modal-info .btn-cross {
+    top: 1rem;
+    right: 1rem;
+    color: var(--primary-grey);
+    position: absolute;
+    font-size: 1.5rem;
+}
+
+.modal-info p {
+    color: var(--primary-grey)
+}
+
+.modal-info .btn {
+    padding: 0.5rem 1rem;
+    width: auto;
+}

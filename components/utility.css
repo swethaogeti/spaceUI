@@ -1,3 +1,8 @@
+*{
+text-decoration: none;
+list-style: none;
+}
+
 .padding-1{
     padding:1rem;
 }
@@ -36,21 +41,24 @@
 .margin-right-2{
     margin-right: 2rem;
 }
+.margin-bottom-1{
+    margin-bottom: 1rem;
+}
 
-h1{
+.h-1{
     margin:1rem;
     font-size: 2rem;
     font-weight: 900;
     color:var(--primary-voilet)
 }
 
-h2{
+.h-2{
     margin: 0.7rem;
     font-weight: 500;
     color:var(--secondary-dark)
 }
 
-h4{
+.h-4{
     color: var(--primary-grey);
     margin:0 0.7rem;
 }
@@ -75,3 +83,4 @@ p{
 .grid-1{
     display: grid;
 }
+

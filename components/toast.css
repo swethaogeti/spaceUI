@@ -1,0 +1,19 @@
+.toast{
+    padding:1rem 1rem;
+    margin:0.5rem 0;
+    width: 25rem;
+   border:2px solid var(--grey);
+    position: relative;
+    color: var(--primary-grey);
+}
+
+.toast .btn-cross {
+    top: 0.5rem;
+    right: 0.5rem;
+    color: var(--primary-grey);
+    position: absolute;
+    
+}
+.toast h3{
+    color: var(--primary-voilet);
+}

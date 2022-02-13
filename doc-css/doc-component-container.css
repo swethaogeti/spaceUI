@@ -11,15 +11,15 @@
 
 .code-display{
     box-sizing: border-box;
-    width: 80%;
-    max-height: 300px;
+    display: flex;
+    width: 100%;
+    max-height: 250px;
     padding: 1rem 0;
-    background-color: #FAFAFA;
+   outline: 1px solid var(--grey);
     margin: 2rem 1rem;
     overflow: auto;
 }
 
  .code-display iframe{
-    width: 100%
-
+    width: 100%;
 }

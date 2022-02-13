@@ -1,3 +1,131 @@
+a{
+    color: var(--primary-voilet);
+}
 
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+.landing-page-container {
+    margin: auto;
+    width: 1100px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
 
-   
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-icon {
+    padding: 1.5rem 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+#lib-name {
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: var(--primary-voilet);
+}
+
+.name-icon span {
+    color: var(--secondary-dark);
+    margin: 0.5rem;
+}
+
+.ul-container {
+    margin: 0.5rem;
+    padding: 1rem 0.5rem;
+}
+
+.ul-links {
+    display: flex;
+    padding: 0 4rem;
+    flex-direction: row;
+}
+
+.ul-links a {
+    color: var(--primary-grey);
+    font-weight: 500;
+    margin: 1rem;
+}
+
+.hero-container {
+    width: 70%;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.hero-container p {
+    color: var(--secondary-dark);
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.hero-container .txt-btn {
+    padding: 1rem;
+}
+
+ .hero-container .txt-btn .btn {
+    width: 12rem;
+    letter-spacing: 1px;
+    margin-right: 1rem;
+}
+
+.hero-container .txt-btn .btn-primary a{
+    color:white;
+}
+.installation-container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.installation-container h2{
+    font-size: 1.7rem;
+    color: var(--secondary-dark);
+    letter-spacing: 1px;
+    line-height: 3rem;
+}
+
+footer{
+  
+    width: 100%;
+    padding: 1rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer .ul-container{
+     padding: 0;
+    margin: 0;
+} 
+footer .ul-links{
+    padding: 0;
+    margin: 0;
+}
+footer .ul-links a{
+    font-size: 2rem;
+    color: var(--secondary-dark);
+}

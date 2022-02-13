@@ -62,7 +62,7 @@
 
 .card-container .btn-cross {
     top: 0.5rem;
-    color: rgb(122, 118, 118);
+    color: var(--primary-grey);
 }
 
 .overlay {
@@ -85,7 +85,6 @@
     position: absolute;
     background-color: var(--secondary-dark);
    top:15rem;
-    
 }
 
 .text-card .btn {
