@@ -12,7 +12,6 @@ color: var(--secondary-dark);
     color: var(--primary-grey);
 }
 .center-text-box{
-    text-align: center;
-   
-  width: 100%;
+    text-align: center;  
+   width: 100%;
 } 

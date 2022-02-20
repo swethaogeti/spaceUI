@@ -13,7 +13,7 @@ color:var(--primary-voilet)
 
 .alert-primary{
     background-color:var(--light-blue);
-color: blue;
+color:var(--blue);
 }
 
 .alert-success{
