@@ -1,0 +1,11 @@
+.star-container i{
+    columns: grey;
+    font-size: 1.3rem;
+}
+
+.star-container .checked{
+    color:gold; 
+}
+.star-container  i:last-child{
+color:grey
+}
