@@ -1,0 +1,91 @@
+.nav-component .header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3%;
+  outline: 1px solid var(--grey);
+}
+
+.nav-component .logo {
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+.nav-component ul {
+  list-style: none;
+  display: flex;
+}
+.nav-component li {
+  margin-right: 1rem;
+}
+
+.header .search-bar-container {
+  display: flex;
+  align-items: center;
+  outline: 1px solid black;
+  width: 20rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0.3rem;
+}
+
+.header .search-bar-container #search-bar {
+  width: 100%;
+  background: none;
+  padding: 0.5rem;
+  text-transform: none;
+  font-size: 1rem;
+  border: none;
+}
+
+.header .search-bar-container label {
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+}
+
+.icons {
+  display: flex;
+  color: #666;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.icons a {
+  margin-right: 1.5rem;
+  color: var(--primary-dark);
+}
+
+.nav-display-container {
+  display: flex;
+  padding: 1rem;
+  margin: 2rem 1rem;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid var(--grey);
+}
+
+#menu-bar {
+  display: none;
+  font-size: 1.3rem;
+  margin-right: 0.5rem;
+}
+@media (max-width: 769px) {
+  .nav-component .header {
+    width: 100%;
+  }
+
+  .nav-component .logo {
+    font-size: 1.5rem;
+  }
+
+  .header .search-bar-container {
+    display: none;
+  }
+  #menu-bar {
+    display: initial;
+  }
+  .nav-component .nav-links {
+    display: none;
+  }
+}

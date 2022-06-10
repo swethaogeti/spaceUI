@@ -1,0 +1,13 @@
+.slider-custom {
+  accent-color: var(--primary-voilet);
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+}
+
+.slider i {
+  margin-right: 1rem;
+  color: var(--secondary-dark);
+}
